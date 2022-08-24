@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Satellite } from '../satellite';
 
+
 @Component({
   selector: 'app-orbit-counts',
   templateUrl: './orbit-counts.component.html',
@@ -28,4 +29,6 @@ export class OrbitCountsComponent implements OnInit {
  }
 
 
-}
+
+
+}let satArr: string[]= ['Space Debris','Communication','Probe','Positioning','Space Station','Telescope'];
