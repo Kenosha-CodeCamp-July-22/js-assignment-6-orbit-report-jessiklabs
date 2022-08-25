@@ -10,7 +10,7 @@ import { Satellite } from '../satellite';
 export class OrbitCountsComponent implements OnInit {
 
 	@Input() satellites: Satellite[];
-
+satArr: string[]= ['Space Debris','Communication','Probe','Positioning','Space Station','Telescope'];
   constructor() { }
 
   ngOnInit() {
@@ -31,4 +31,4 @@ export class OrbitCountsComponent implements OnInit {
 
 
 
-}let satArr: string[]= ['Space Debris','Communication','Probe','Positioning','Space Station','Telescope'];
+}
